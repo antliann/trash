@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Egg game</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<p class="egg lolo">Кликай на <span class="olol">яйцо 20</span> раз</p>
+
+	<img class="ya" src="Images/47692668_1958135090974774_6762833792332802352_n.jpg" alt="egg" width="400">
+
+	<p class="egg likes">0</p>
+
+	<a class="fuck" href="treshak.html">
+		<img class="back"
+			src="Images/web-navigation-ui_icon-79-512.png"
+			alt="Back to Tsymbal, back to reality">
+	</a>
+
+<script>
+	let clicks = 0;
+	let content = document.querySelector(".ya");
+	let numberCaption = document.querySelector(".likes");
+
+	content.onclick = function () {
+		if (clicks < 50) {
+			clicks++;
+			numberCaption.textContent = clicks;
+			if (clicks === 20) {
+				content.setAttribute('src', 'Images/20180608-VPA844jpg.jpg');
+				document.querySelector(".olol").textContent = "цыпу 50";
+			}
+			if (clicks === 50) {
+				content.setAttribute('src', 'Images/MA_00931651_i6bphd.jpg');
+				document.querySelector(".lolo").textContent = " ";
+				numberCaption.textContent = "Это ты";
+			}
+		}
+	}
+
+
+</script>
+</body>
+</html>

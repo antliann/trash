@@ -1,0 +1,45 @@
+.dick{
+  font-size: 50px;
+  text-align: center;
+  color: #00ad00;
+  font-family: "Arial", sans-serif;
+}
+body{
+  background-color: #b3d4fc;
+}
+.ben{
+  border-radius: 3%;
+  border: 5px solid #222222;
+  width: 35%;
+
+}
+
+a{
+  color: #d60000;
+}
+.hui{
+  /*background*/
+}
+.back{
+  width: 7%;
+  border-radius: 50%;
+  display: block;
+}
+.fuck{
+  background-color: #00ad00;
+  display: inline;
+}
+
+.egg{
+  font-size: 40px;
+  text-align: center;
+}
+
+img{
+  align-items: center;
+}
+
+body{
+  align-items: center;
+  text-align: center;
+}
